@@ -160,7 +160,9 @@ body {
     color: #121212;
   }
   .spotify-playlists .list::-webkit-scrollbar{
-    width: 0;
+    width: 10px;
+    background-color: #2e2929;
+    border-radius: 90px;
     
   }
   .spotify-playlists .list .item {
