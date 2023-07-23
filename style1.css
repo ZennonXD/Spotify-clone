@@ -84,8 +84,10 @@ body {
     font-size: 16px;
     color: #ffffff;
   }
-
-  .topbar .prev-next-buttons button {
+.welcome-user, .topbar .prev-next-buttons button{
+  display: grid;
+}
+  .prev-next-buttons button {
     color: #7a7a7a;
     cursor: not-allowed;
     width: 3vw;
@@ -94,9 +96,11 @@ body {
     font-size: 18px;
     border: 0px;
     background-color: #090909;
-    margin-right: 10px;
-    margin-top: 1.5rem;
+    /* margin-right: 10px; */
+    /* margin-top: 1.5em; */
+    margin-left: 1rem;
     left: 0; 
+    display: inline-block;
   }
   .topbar .navbar {
     display: flex;
@@ -160,10 +164,9 @@ body {
     color: #121212;
   }
   .spotify-playlists .list::-webkit-scrollbar{
-    width: 10px;
-    background-color: #2e2929;
+    width: 0;
+    background-color: rgb(82, 76, 76);
     border-radius: 90px;
-    
   }
   .spotify-playlists .list .item {
     min-width: 140px;
